@@ -25,5 +25,11 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha1)) {
             selectPlayer = GameObject.FindWithTag("Claire");
         }
+        if (Input.GetKeyDown(KeyCode.Alpha2)) {
+            selectPlayer = GameObject.FindWithTag("John");
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3)) {
+            selectPlayer = GameObject.FindWithTag("Thomas");
+        }
     }
 }
